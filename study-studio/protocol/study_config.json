@@ -1,0 +1,21 @@
+{
+  "configVersion": "1.0.0",
+  "studyId": "FACT_RELATIONSHIP_2026",
+  "studyTitle": "Which domains does FACT_RELATIONSHIP link?",
+  "description": "Share of fact_relationship rows per domain pair (CodeToRun.R). Relative values only. See https://forums.ohdsi.org/t/26074",
+  "cdmVersion": "5.4",
+  "issuedAt": "2026-11-14T00:00:00.000Z",
+  "minCellCount": 5,
+  "framework": {
+    "name": "R script",
+    "modules": []
+  },
+  "cohorts": [],
+  "expectedHashes": {},
+  "protectedSections": {
+    "code/ExecuteAnalyses.R": {
+      "marker": "# --- script starts here ----",
+      "sha256": "259a2fb43f36f7a21a4ad3c9046ee5e04cd3b086415e8d9f710cb73e31a9f47d"
+    }
+  }
+}
